@@ -1,4 +1,8 @@
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7843/badge)](https://www.bestpractices.dev/projects/7843)
+[![Go Report Card](https://goreportcard.com/badge/github.com/intelops/genval)](https://goreportcard.com/report/github.com/intelops/genval)
+[![Build Status](https://github.com/intelops/genval/actions/workflows/ci.yaml/badge.svg)](https://github.com/intelops/genval/actions?query=workflow%3Abuild)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
 # Genval: Simplifying Configuration Management
 
@@ -157,7 +161,7 @@ Genval offers four modes:
 A helper mode `showjson` is available for user to view the **JSON** representation of the input files passed to Genval. In `--mode showjson` a user can pass the input file, for example a Dockerfile, Terraform file or a Kubernetes YAML manifests and get the JSON representation of that specific input. As most of the policies are written based on input in a JSON structured format. This would enable user to refer this JSON document to write their custom policies in **Rego** and **CEL**.
 
 
-> All the modes accept inputs that include local files and files obtained from a remote URL, such as those from a Git repository. 
+> All the modes accept inputs that include local files and files obtained from a remote URL, such as those from a Git repositoryin raw format. 
   
 
 ### Dockerfile Validation and Generation:
